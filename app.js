@@ -114,7 +114,7 @@ app.listen(server_port, erver_ip_address, function(){
   console.log("Listening on "+ server_ip_address +",server_port"+server_port);
 });
 
-console.log('Running at Port 3000');
+// console.log('Running at Port 3000');
 
 // app.get('/contact', function (req, res) {
 //   let sql;
