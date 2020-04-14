@@ -18,18 +18,18 @@ app.set('view engine', 'html');
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 //database conections
 
-let con = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'igdent'
-});
-con.connect(function(error){
-  if (error) throw error;
-  console.log('conectat')
-})
+// let con = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'root',
+//   password: '',
+//   database: 'igdent'
+// });
+// con.connect(function(error){
+//   if (error) throw error;
+//   console.log('conectat')
+// })
 
-process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
+// process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 
 
 // router.get('/',function(req,res){
